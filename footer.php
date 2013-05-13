@@ -1,4 +1,4 @@
-      <div id="footer">Copyright &copy; 2012 orodor.org.uk</div>
+      <footer>Copyright &copy; 2012-2013 orodor.org.uk</footer>
     </div>
   </div>
 

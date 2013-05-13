@@ -24,10 +24,10 @@
 
         ?></title>
   <link rel="profile" href="http://gmpg.org/xfn/11" />
-  <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/reset.css" />
+  <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/normalise.css" />
   <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/style.css" />
-  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu+Condensed" />
-  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu" />
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lobster" />
 
   <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/favicon.ico" />
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
@@ -35,11 +35,12 @@
 </head>
 <body <?php body_class(); ?>>
   <div id="page-wrapper">
-    <div id="header">
-      <div id="navigation">
+    <header>
+      <nav id="menu">
         <?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu-header' ) ); ?>
-      </div>
-    </div>
+      </nav>
+      <h1><?php bloginfo( 'name' ); ?></h1>
+    </header>
     <div id="content-wrapper">
       <div id="content-area-wrapper">
         <div id="content-area">
