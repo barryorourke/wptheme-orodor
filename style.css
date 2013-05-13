@@ -1,0 +1,316 @@
+/*
+Theme Name: orodor
+Author: Barry O'Rourke
+Version: 1.0
+*/
+
+/* HTML Elements */
+
+body {
+  background-color:  #fbfae8;
+  line-height:       1.5em;
+  font-family:       "PT Sans", Verdana, serif;
+  font-size:         0.9em;
+  padding:           0;
+  margin:            0;
+  color:             #444;
+}
+
+a {
+  text-decoration:   none;
+  color:             #346199;
+}
+
+a:hover {
+  text-decoration:   underline;
+}
+
+h2,h3 {
+  letter-spacing:    1px;
+  font-family:       'Ubuntu Condensed', sans-serif;
+  color:             #53301b;
+}
+
+h2 {
+  border-bottom:     1px solid #eaeaea;
+  line-height:       1.7em;
+  font-size:         1.6em;
+  margin:            0 0 0.25em 0;
+}
+
+h3 {
+  line-height:       1.4em;
+  font-size:         1.25em;
+  margin:            0.25em 0;
+}
+
+p {
+  padding:           0.5em 0;
+}
+
+pre {
+  background-color:  #fdfdfd;
+  padding:           1em 2em;
+  margin:            1em 3em;
+  border:            1px solid #eaeaea;
+  font:              1.2em monospace;
+}
+
+blockquote {
+  font-style:        italic; 
+  margin:            1em 3em;
+  color:             #555;
+}
+
+/* Layout */
+
+div#page-wrapper {
+  border-top:        15px solid #7a645c;
+  min-width:         960px;
+  margin:            0 auto;
+  width:             80%;
+}
+
+div#header {
+  border-bottom:     5px solid #7a645c;
+  margin:            1em 0 0 0;
+}
+
+div#navigation {
+  height:            30px;
+  background:        url('logo.png') top right no-repeat transparent;
+}
+
+#content-wrapper {
+  background-color:  #ffffff;
+  padding:           1em 1em 0 1em;
+}
+
+#content-wrapper #content-area-wrapper {
+  margin-right:      -230px;
+  width:             100%;
+  float:             left;
+}
+
+#content-wrapper #content-area {
+  margin:            0em 250px 2em 0em;
+}
+
+#content-wrapper #sidebar {
+  width:             230px;
+  float:             right;
+}
+
+#footer {
+  background-color:  #FBFAE8;
+  border-top:        3px solid #7a645c;
+  text-align:        center;
+  font-size:         0.9em;
+  margin:            0em -1em;
+  clear:             both;
+}
+
+/* Navigation */
+
+div#navigation ul {
+  list-style-type:   none;
+  text-transform:    uppercase;
+  padding:           0;
+  margin:            0;
+}
+
+div#navigation ul li {
+  -webkit-border-radius: 10px 10px 0 0;
+  -khtml-border-radius:  10px 10px 0 0;
+  -moz-border-radius:    10px 10px 0 0;
+  float:             left;
+}
+
+div#navigation ul li.active {
+  background-color:  #7a645c;
+}
+
+div#navigation ul li a {
+  line-height:       30px;
+  padding:           0 2em;
+  color:             #5c4b45;
+  float:             left;
+}
+
+div#navigation ul li a:hover {
+  text-decoration:   none;
+  color:             #000;
+}
+
+div#navigation ul li a.active {
+  color:             #fff;
+}
+
+/* Blocks */
+
+div.block {
+  -webkit-border-radius: 10px;
+  -khtml-border-radius:  10px;
+  -moz-border-radius:    10px;
+  background-color:  #f5f6f3;
+  padding:           0.5em 1em 1em 1em;
+  border:            1px solid #e8e8e8;
+  margin:            0 0 1.5em 0;
+}
+
+div.block h2 {
+  text-align:        center;
+  font-size:         1.3em;
+  margin:            0 0 1em 0;
+}
+
+div#search-3 {
+  padding-top:       1em;
+  text-align:        center;
+}
+
+div#search-3 label.screen-reader-text {
+  display:           none;
+}
+
+/* Blog Posts  */
+
+div.type-post {
+  padding:            0.5em 0 1em 0;
+  margin:             0 0 1.5em 0;
+}
+
+div.type-post ul {
+  list-style-type:   circle;
+  padding:           0.5em;
+  margin:            1em;
+}
+
+div.type-post h2 a {
+  color:             #53301b;
+}
+
+div.type-post h2 a:hover {
+  text-decoration:   none;
+}
+
+div.type-post div.submitted {
+  font-style:        italic;
+  font-size:         0.8em;
+  margin:            0 0 1em 0; 
+}
+
+div.type-post div.post-end {
+  -webkit-border-radius: 10px;
+  -khtml-border-radius:  10px;
+  -moz-border-radius:    10px;
+  background-color:  #f8f8f8;
+  font-size:         0.85em;
+  padding:           0.2em;
+  margin:            1em 0 0 0;
+  border:            1px solid #e8e8e8;
+}
+
+div.type-post div.post-end div.tags {
+  padding:           0 0 0 1em;
+  float:             left;
+}
+
+div.type-post div.post-end div.links {
+  text-align:        right;
+  padding:           0 1em 0 0;
+}
+
+/* Comments */
+
+h3#comments,
+div#respond h3 {
+  font-family:       'Ubuntu Condensed', sans-serif;
+  font-size:         1.3em;
+  margin:            1em 0em;
+  color:             #53301b;
+}
+
+div#respond h3 { 
+  margin-bottom:     0em;
+}
+
+div#respond textarea {
+  width:             100%;
+}
+
+ol.commentlist li {
+  -webkit-border-radius: 10px;
+  -khtml-border-radius:  10px;
+  -moz-border-radius:    10px;
+  padding:           1em;
+  border:            1px solid #eaeaea;
+  margin:            1em 0.5em;  
+}
+
+div.comment-meta a {
+  font-size:         0.8em;
+}
+
+div.comment-body .reply {
+  text-align:        right;
+}
+
+div#comments h2 {
+  font-size:         1.3em;
+}
+
+div.comment-admin {
+  background-color:  #f8f8f8;
+}
+
+div.comment-published {
+  -webkit-border-radius: 10px;
+  -khtml-border-radius:  10px;
+  -moz-border-radius:    10px;
+  padding:           1em;
+  border:            1px solid #eaeaea;
+  margin:            1em 2em;
+}
+
+div.comment-published h3 {
+  letter-spacing:    1px;
+  font-size:         1.2em;
+  width:             100%;
+  color:             #53301b;
+}
+
+div.comment-published h3 span {
+  font-size:         0.8em;
+}
+
+div.comment-published div.submitted {
+  font-style:        italic;
+  font-size:         0.8em;
+}
+
+/* Flickr photos */
+
+img.flickr-photo-img {
+  margin:            0.5em 0 0.5em 1em;
+  border:            1px solid #a1b096;
+  float:             right;
+}
+
+#content-area #searchform {
+  margin:            1em 0;
+}
+
+/* remove after converting to theme */
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  display: inline-block;
+}
