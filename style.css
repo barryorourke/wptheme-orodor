@@ -170,12 +170,14 @@ aside h2 {
   margin:            0 0 0.5em 0;
 }
 
-aside#search-2 {
+aside#search-2,
+aside#search-3 {
   padding-top:       1em;
   text-align:        center;
 }
 
-aside#search-2 label {
+aside#search-2 label,
+aside#search-3 label {
   display:           none;
 }
 
