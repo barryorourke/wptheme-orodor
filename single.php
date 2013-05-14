@@ -5,7 +5,7 @@
     <?php get_template_part( 'content', 'single' ); ?>
     <?php comments_template( '', true ); ?>
 
-  <?php endwhile; // end of the loop. ?>
+  <?php endwhile; ?>
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
