@@ -246,14 +246,9 @@ article div#post-end div.links {
 
 h3#comments,
 div#respond h3 {
-  font-family:       'Ubuntu Condensed', sans-serif;
   font-size:         1.3em;
   margin:            1em 0em;
-  color:             #53301b;
-}
-
-div#respond h3 { 
-  margin-bottom:     0em;
+  color:             #7A645C;
 }
 
 div#respond textarea {
@@ -275,63 +270,4 @@ div.comment-meta a {
 
 div.comment-body .reply {
   text-align:        right;
-}
-
-div#comments h2 {
-  font-size:         1.3em;
-}
-
-div.comment-admin {
-  background-color:  #f8f8f8;
-}
-
-div.comment-published {
-  -webkit-border-radius: 10px;
-  -khtml-border-radius:  10px;
-  -moz-border-radius:    10px;
-  padding:           1em;
-  border:            1px solid #eaeaea;
-  margin:            1em 2em;
-}
-
-div.comment-published h3 {
-  letter-spacing:    1px;
-  font-size:         1.2em;
-  width:             100%;
-  color:             #53301b;
-}
-
-div.comment-published h3 span {
-  font-size:         0.8em;
-}
-
-div.comment-published div.submitted {
-  font-style:        italic;
-  font-size:         0.8em;
-}
-
-/* Flickr photos */
-
-img.flickr-photo-img {
-  margin:            0.5em 0 0.5em 1em;
-  border:            1px solid #a1b096;
-  float:             right;
-}
-
-#content-area #searchform {
-  margin:            1em 0;
-}
-
-/* remove after converting to theme */
-
-.clearfix:after {
-  content: ".";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-}
-
-.clearfix {
-  display: inline-block;
 }
