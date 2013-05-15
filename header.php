@@ -29,9 +29,8 @@
 <body <?php body_class(); ?>>
   <div id="page-wrapper">
     <header id="page">
-      <nav id="menu">
-        <?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu-header' ) ); ?>
-      </nav>
+      <?php wp_nav_menu( array( 'container' => 'nav', 'container_id' => 'menu' ) ); ?>
+
       <h1><?php bloginfo( 'name' ); ?></h1>
     </header>
     <div id="content-wrapper">
