@@ -63,6 +63,12 @@ blockquote {
   color:             #555;
 }
 
+/* The Header */
+
+header#page {
+  border-bottom:     3px solid #7a645c;
+}
+
 /* Layout */
 
 div#page-wrapper {
@@ -70,10 +76,6 @@ div#page-wrapper {
   min-width:         960px;
   margin:            0 auto;
   width:             80%;
-}
-
-header {
-  border-bottom:     3px solid #7a645c;
 }
 
 div#content-wrapper {

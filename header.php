@@ -28,7 +28,7 @@
 </head>
 <body <?php body_class(); ?>>
   <div id="page-wrapper">
-    <header>
+    <header id="page">
       <nav id="menu">
         <?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu-header' ) ); ?>
       </nav>
