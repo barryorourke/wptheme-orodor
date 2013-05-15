@@ -5,8 +5,8 @@
   <title><?php wp_title( '|', true, 'right' ); ?><?php bloginfo( 'name' ); ?></title>
   <meta name="description" content="<?php bloginfo( 'description' ); ?>">
   <link rel="profile" href="http://gmpg.org/xfn/11" />
-  <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/normalise.css" />
-  <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/normalise.css" />
+  <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/style.css" />
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu" />
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lobster" />
   <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/favicon.ico" />
