@@ -1,4 +1,4 @@
-      <footer>Copyright &copy; 2012-2013 orodor.org.uk</footer>
+      <footer id="page">Copyright &copy; <?php $the_year = date("Y"); echo $the_year; ?> <?php bloginfo('name'); ?></a></footer>
     </div>
   </div>
 

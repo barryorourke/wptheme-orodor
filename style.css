@@ -69,10 +69,23 @@ blockquote {
   color:             #555;
 }
 
-/* The Header */
+/* The Page Header */
 
 header#page {
   border-bottom:     3px solid #7a645c;
+}
+
+/* The Page Footer */
+
+footer#page {
+  background-color:  #FBFAE8;
+  border-right:      0;
+  border-left:       0;
+  border-top:        3px solid #7a645c;
+  text-align:        center;
+  font-size:         0.85em;
+  margin:            0em -1.15em;
+  clear:             both;
 }
 
 /* Layout */
@@ -106,16 +119,6 @@ div#sidebar {
   float:             right;
 }
 
-footer {
-  background-color:  #FBFAE8;
-  border-right:      0;
-  border-left:       0;
-  border-top:        3px solid #7a645c;
-  text-align:        center;
-  font-size:         0.85em;
-  margin:            0em -1.15em;
-  clear:             both;
-}
 
 /* Navigation */
 
