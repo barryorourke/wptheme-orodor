@@ -4,7 +4,7 @@
             <div class="post-body">
               <?php the_content(); ?>
             </div>
-            <div id="post-end">
+            <div class="post-end">
               <div class="tags"></div>
               <div class="links">&nbsp;</div>
             </div>

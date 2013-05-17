@@ -244,7 +244,7 @@ article span.submitted {
   margin:            0 0 1em 0; 
 }
 
-article div#post-end {
+article div.post-end {
   -webkit-border-radius: 10px;
   -khtml-border-radius:  10px;
   -moz-border-radius:    10px;
@@ -255,12 +255,12 @@ article div#post-end {
   border:            1px solid #e8e8e8;
 }
 
-article div#post-end div.tags {
+article div.post-end div.tags {
   padding:           0 0 0 1em;
   float:             left;
 }
 
-article div#post-end div.links {
+article div.post-end div.links {
   text-align:        right;
   padding:           0 1em 0 0;
 }

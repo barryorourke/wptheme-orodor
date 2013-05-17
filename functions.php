@@ -16,16 +16,9 @@ register_sidebar(array(
 function orodor_pager() {
   global $wp_query;
 
-  /* how many pages are there */
   $total_pages = $wp_query->max_num_pages;
-
-  /* only show the pager if there are enough pages */
   if ($total_pages > 1){
-
-    /* get the current page */
     $current_page = max(1, get_query_var('paged'));
-
-    /* return the pager */
     return paginate_links(array(
           'base' => get_pagenum_link(1) . '%_%',
           'format' => 'page/%#%',
@@ -37,4 +30,12 @@ function orodor_pager() {
   }
 }
 
+/* Filters the_category() to output html 5 valid rel tag */
+function html_validate( $text ) {
+  $string = 'rel="tag"';
+  $replace = 'rel="category tag"';
+  $text = str_replace( $replace, $string, $text );
+  return $text;
+}
+add_filter( 'the_category', 'html_validate' );
 ?>
