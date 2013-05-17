@@ -15,7 +15,7 @@
 </head>
 <body <?php body_class(); ?>>
   <div id="page-wrapper">
-    <header id="page">
+    <header id="page-header">
       <?php wp_nav_menu( array( 'container' => 'nav', 'container_id' => 'menu' ) ); ?>
 
       <h1><?php bloginfo( 'name' ); ?></h1>
