@@ -69,6 +69,15 @@ blockquote {
   color:             #555;
 }
 
+input {
+  -webkit-border-radius: 5px;
+  -khtml-border-radius:  5px;
+  -moz-border-radius:    5px;
+  padding:           0.5em;
+  border:            1px solid #aaa;
+  margin:            0.1em;
+}
+
 /* Layout */
 
 div#page-wrapper {
@@ -197,12 +206,25 @@ aside#search-3 {
   text-align:        center;
 }
 
-aside#search-2 label,
-aside#search-3 label {
+aside#search-2 input#searchsubmit,
+aside#search-3 input#searchsubmit {
   display:           none;
 }
 
+aside#search-2 label,
+aside#search-3 label  {
+  display:           none;
+}
 
+/* The Search Page */
+
+div#content-area header.searchform {
+  display:           none;
+}
+
+div#content-area form#searchform label {
+  display:           none;
+}
 
 /* Blog Posts  */
 
