@@ -144,14 +144,6 @@ nav#menu ul li {
   float:                 left;
 }
 
-nav#menu ul li.current-menu-item {
-  border-bottom:     3px solid #000;
-}
-
-nav#menu ul li.current-menu-item:hover {
-	  border-bottom:     3px solid #7a645c;
-}
-
 nav#menu ul li a {
   font-weight:       bold;
   font-size:         1.1em;
