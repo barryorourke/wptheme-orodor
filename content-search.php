@@ -5,7 +5,7 @@
               <?php the_content(); ?>
             </div>
             <div class="post-end">
-              <div class="tags">Posted in: <?php the_category(', '); ?> Tagged: <?php the_tags( '', ', '); ?></div>
+              <div class="tags">Tagged:  <?php the_tags( '', ', '); ?></div>
               <div class="links">
               <?php comments_popup_link( 'Leave a comment', '1 comment', '% comments', 'comments-link', 'Comments are off for this post'); ?>
               </div>
