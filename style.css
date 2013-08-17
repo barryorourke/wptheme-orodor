@@ -191,17 +191,20 @@ aside h2 {
 /* The Search Block */
 
 aside#search-2,
+aside#orodor-searchform,
 aside#search-3 {
   padding-top:       1em;
   text-align:        center;
 }
 
 aside#search-2 input#searchsubmit,
+aside#orodor-searchform input#searchsubmit,
 aside#search-3 input#searchsubmit {
   display:           none;
 }
 
 aside#search-2 label,
+aside#orodor-searchform label,
 aside#search-3 label  {
   display:           none;
 }
