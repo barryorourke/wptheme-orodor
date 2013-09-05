@@ -309,3 +309,8 @@ div.comment-meta a {
 div.comment-body .reply {
   text-align:        right;
 }
+
+/* Pages */
+
+article.page h2 {
+  margin:            0 0 1.5em 0;
