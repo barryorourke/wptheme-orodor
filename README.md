@@ -1,9 +1,6 @@
 wptheme-orodor
 ==============
 
-wordpress theme used on orodor.org.uk
+wordpress theme used on orodor.org.uk, using twitter bootstrap.
 
-Still needing done
-==================
-
-Add pager to search.php
+currently not in a working state, see pre-bootstrap branch instead!
