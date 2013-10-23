@@ -20,7 +20,6 @@
 <body <?php body_class(); ?>>
   
   <div class="container">
-
     <header class="navbar navbar-default navbar" role="navigation"> 
       <div class="navbar-header pull-right"> 
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"> 
@@ -44,5 +43,9 @@
       </div>
     </header>
 
-    <div class="container mainpage">
-      <div class="col-md-9">
+
+    <div id="content-wrapper">
+      <div id="content-area-wrapper">
+        <div id="content-area">
+
+
