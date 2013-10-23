@@ -1,8 +1,5 @@
 <?php
 
-/* required to make bootstrap menu work */
-require_once('wp_bootstrap_navwalker.php');
-
 /* add theme support for menus */
 add_theme_support( 'menus' );
 
